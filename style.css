@@ -429,4 +429,331 @@ border-radius: 30px;
 	max-width: 768px;
 	margin: 0 auto;
 	color:#939393;
+	padding-bottom: 300px;
+}
+
+.container4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.container4 .item6{
+	background-image: url(./img/planet.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	grid-column: 3/4;
+	grid-row: 2/4;
+	margin: 0; 
+}
+.container4 .item7{
+	background-image: url(./img/gold.png);
+	
+	background-repeat: no-repeat;
+	background-size: contain;
+	grid-column: 1/3;
+	grid-row: 3/4;
+	margin: 0; 
+}
+.container4 div:first-child, .container4 div:nth-child(3){
+	background-color: #f8f8f8;
+}
+.container4 div img{
+max-width: 100%;
+}
+.container4 div{
+margin: auto;
+}
+.container4 div span {
+	margin-left: 25%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: #141311;
+}
+.container4 div i{
+	display: block;
+width: 35px;
+height: 2px;
+background-color:  #000000;
+margin-left: 25%;
+margin-top: 12px;
+}
+.container4 div p{
+	font-weight: 300;
+	font-family: 'Nunito', 'Sans-serif';
+	font-size: 14px;
+	width: 60%;
+	color: #333333;
+	margin-left: 25%;
+	margin-top: 25px;
+}
+.container4 .item7 i{
+	margin-left: 12.5%;	
+	
+}
+.container4 .item7 p{
+	margin-left: 12.5%;	
+}
+.container4 .item7 span{
+	display: block;
+	width: 50%;
+	margin-top: 12%;
+	margin-left: 12.5%;
+	
+}
+.container4 .item6 span{
+	color: #ebebed;
+	width: 50%;
+	display: block;
+	margin-top: 85%;
+}
+.container4 .item6 i{
+	background-color: #ffffff;
+}
+.container4 .item6 p{
+	color: #ffffff;
+}
+.container7 {
+	background-color: #e8e8e9;
+	padding-top: 140px;
+	padding-bottom: 110px;
+}
+
+.container7 .center {
+	max-width: 1200px;
+	width: 100%;	
+	margin: 0 auto;
+	background-color: #e8e8e9
+}
+
+.container7 .center h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	color: #000000;
+	margin: 0 35% 70px 35%;
+}
+
+.container7 .center .grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: 2fr 2fr;
+	height: 600px;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+}
+
+.container7 .center .grid .img1 {
+	background-image: url(./img/7people.png);
+	background-size: contain;
+	grid-column: 1/2;
+	grid-row: 1/3;
+}
+
+.container7 .center .grid .img1 .tag {
+	width: 95px;
+	height: 25px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: #ffffff;
+	background-color: #857339;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+
+.container7 .center .grid .img1 div {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.container7 .center .grid .img1 h2 {
+	width: 80%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	color: #ffffff;
+	margin: 45% 110px 0 85px;
+}
+
+.container7 .center .grid .img1 p {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+	color: #cbcbcb;
+	width: 50%;
+	margin-top: 30px;
+	margin-left: 170px;
+	margin-right: 220px;
+	text-transform: uppercase;
+}
+
+.container7 .center .grid .img1 p span {
+	color: #a88c34;
+}
+
+.container7 .center .grid .img2 {
+	background-image: url(./img/7man.png);
+	background-repeat: no-repeat;
+}
+
+.container7 .center .grid .img2 .tag {
+	width: 95px;
+	height: 25px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: #ffffff;
+	background-color: #857339;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+
+.container7 .center .grid .img2 div {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.container7 .center .grid .img2 p {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #424242;
+	margin-top: 210px;
+	width: 100%;
+}
+
+.container7 .center .grid .img3 {
+	background-image: url(./img/7man2.png);
+	background-repeat: no-repeat;
+}
+
+.container7 .center .grid .img3 .tag1 {
+	width: 75px;
+	height: 25px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: #ffffff;
+	background-color: #857339;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+
+.container7 .center .grid .img3 .tag2 {
+	width: 55px;
+	height: 25px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: #ffffff;
+	background-color: #857339;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+
+.container7 .center .grid .img3 div {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.container7 .center .grid .img3 p {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #424242;
+	margin-top: 210px;
+	width: 100%;
+}
+
+.container7 .center .grid .img4 {
+	background-image: url(./img/7woomen.png);
+	background-repeat: no-repeat;
+}
+
+.container7 .center .grid .img4 .tag {
+	width: 95px;
+	height: 25px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: #ffffff;
+	background-color: #857339;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+
+.container7 .center .grid .img4 div {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.container7 .center .grid .img4 p {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #424242;
+	margin-top: 210px;
+	width: 100%;
+}
+
+.container7 .center .grid .img5 {
+	background-image: url(./img/7comp.png);
+	background-repeat: no-repeat;
+}
+
+.container7 .center .grid .img5 .tag {
+	width: 95px;
+	height: 25px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: #ffffff;
+	background-color: #857339;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+
+.container7 .center .grid .img5 div {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.container7 .center .grid .img5 p {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #424242;
+	margin-top: 210px;
+	width: 100%;
+}
+
+.container7 .center a {
+	text-decoration: none;
+	color: #333333;
+	font-size: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 50px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	width: 270px;
+	height: 60px;
+}
+
+.container7 .center .btndwn {
+	margin-left: 45%;
+	margin-top: 50px;
+}
+
+.container7 .center a:hover {
+	cursor: pointer;
+	background-color: rgba(143, 88, 0, 1);
 }
